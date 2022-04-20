@@ -1,11 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("paso 1"){
+        stage("build"){
             steps{
-                script {
-                    sh "dir"
-                }
+                echo "building"
             }
         }
     }
