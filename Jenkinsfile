@@ -3,7 +3,9 @@ pipeline{
     stages{
         stage("paso 1"){
             steps{
-                dir
+                script {
+                    sh "dir"
+                }
             }
         }
     }
